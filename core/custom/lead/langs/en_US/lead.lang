@@ -1,0 +1,161 @@
+# Manage Lead
+# Copyright (C) 2014  Florian HENRY <florian.henry@open-concept.pro>
+# Copyright (C) 2015 Raphaël Doursenaud <rdoursenaud@gpcsolutions.fr>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleXXXName'
+# (where XXX is value of numeric property 'numero' of module)
+Module103111Name = Lead
+LeadLead= Lead
+# Module description 'ModuleXXXDesc'
+# (where XXX is value of numeric property 'numero' of module)
+Module103111Desc = Manages Lead
+LeadSimpleNumRefModelDesc=Return a reference like LEA-yymm-nnnn where yy is the year, mm the month and nnnn a sequencial counter without reset
+
+#
+# Admin page
+#
+LeadSetup = Lead setup
+SettingsLead = Settings
+LeadSetupPage = Lead setup page
+LeadNbDayDefaultClosure = Number of days to add to the current date for closure's default
+LeadAdmVar=Admin value
+LeadUserGroupAffect = Limit list of users assignable to lead to user group
+LeadForceUseThirdparty = Force use thirdparty on Lead
+LeadForceUseThirdpartyHelp = Is set to No, Lead without customer will never be visible for users without user permissions "Extend access to all third parties"
+LeadAllowMultipleOnContract=Allow users to attach several leads to a single contract
+
+#
+# About page
+#
+About = About
+LeadAbout = About Lead
+LeadAboutPage = Lead about page
+
+
+#
+# Permissions
+#
+Permission1031111=See Lead
+Permission1031112=Update Lead
+Permission1031113=Delete Lead
+Permission1031114=Export Lead
+
+#
+# Dictionnaires
+#
+LeadStatusDict=Module Lead - Steps
+LeadTypeDict=Module Lead - Types
+
+#
+# Menu
+#
+LeadList = List Lead
+LeadInfo = Lead Info
+LeadCreate = Create Lead
+LeadContact=Lead Contact
+LeadListCurrent=Current Lead
+LeadListMyLead=My Lead
+LeadListLate = Late Lead
+
+
+#
+# Status
+#
+LeadStatus=Selling step
+LeadStatus_PROSP=Prospect
+LeadStatus_CHIFF=Budget
+LeadStatus_PROPO=Proposal
+LeadStatus_NEGO=Deal
+LeadStatus_RECOND=Renew
+LeadStatus_WIN=Win
+LeadStatus_LOST=Lost
+
+#
+# Type
+#
+LeadType=Type
+LeadType_SUPP=Support
+LeadType_TRAIN = Training
+LeadType_ADVI=Consulting
+
+#
+# Card
+#
+LeadCommercial=Commercial
+LeadAmountGuess = Budget w/o VAT
+LeadDeadLine=Deadline
+LeadDelete=Delete Lead
+LeadConfirmDelete = Are you sure you want to delete the lead ?
+LeadRefInt = Internal reference
+LeadRealAmount = Real amount w/o VAT
+LeadDescription=Description
+LeadDocuments=Link Document
+LeadAddElement=Link
+LeadLate=Lead Late
+ConfirmCloneLead=Are you sure to clone Lead
+LeadShowLead=Display lead
+SelectElement=Select element
+LeadLink=Link(ed) Lead
+LeadLost=Lead close
+LeadConfirmLost=All proposals link to this lead will be close (not signed) ?
+LeadPropalCloseByLead=Proposal close by lost lead %s
+LeadObjectWindExists=Proposal signed or invoice exist (lead status should be win)
+LeadLastLeadUpdated=Last %s lead updated
+LeadCreatePropale=Create proposal
+LeadConfirmCreatePropale=Confirm proposal creation
+LeadClonePropale=Clone proposal
+LeadChoosePropale=Choose a proposal
+LeadCreateContract=Create contract
+LeadConfirmCreateContract=Confirm create contract
+
+#
+# Export
+#
+ExportDataset_lead=Lead
+LeadRefExt=Ref. Ext
+LeadStepCode=Steps Code
+LeadStepLabel=Steps Label
+LeadTypeCode=Type code
+LeadTypeLabel=Types Label
+lead@lead=Leads
+ExportDataset_leadPropal=Propal not linked with lead
+
+#
+# List
+#
+LeadDateDebut = Start Date
+
+#
+# Graph
+#
+LeadNbLeadByType=Nb lead by type
+LeadNbLeadByStatus=Nb lead by steps
+LeadStats=Lead statisitics
+LeadNbLead=Nb lead
+LeadNbLeadByMonth=Nb lead by month
+LeadAmountOfLead=Lead amount
+LeadAmountOfLeadsByMonth=lead amount by month
+LeadTransRateOfLead=Transformation rate
+LeadTransRateOfLeadsByMonth=Transformation rate by month
+
+#
+# Boxes
+#
+LastN=Last %s

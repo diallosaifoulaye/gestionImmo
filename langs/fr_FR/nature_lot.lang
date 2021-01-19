@@ -1,0 +1,16 @@
+# Dolibarr language file - Source file is en_US - nature_lot
+
+NatureLot=Nature Lot
+TypeLot=Type lot
+
+
+echeance=Echéances
+description=Description
+etape=Etape
+date_deb=Date début
+date_fin=Date Fin
+date_deb_reelle=Date début réelle
+date_fin_reelle=Date Fin réelle
+statut=Statut
+EcheancesCategoriesShort=Echéance de la catégorie
+ThisCategoryHasNoEcheance=Ce programme ne contient aucune échéance.
